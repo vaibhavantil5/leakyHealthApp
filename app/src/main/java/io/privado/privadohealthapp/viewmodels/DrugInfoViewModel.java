@@ -50,7 +50,7 @@ public class DrugInfoViewModel extends ViewModel {
         parameters.putString("health_condition", drugInformation.getHealthCondition());
 
         AppEventsLogger logger = AppEventsLogger.newLogger(context);
-        logger.logEvent("drug_info", parameters);
+//        logger.logEvent("drug_info", parameters);
     }
     public void logPIIGoogleAnalyitcs(PersonalyIndentifiableInformation pii, DrugInformation drugInformation) {
 
