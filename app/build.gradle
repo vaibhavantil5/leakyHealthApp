@@ -50,5 +50,6 @@ dependencies {
     implementation 'com.segment.analytics.android:analytics:4.9.2'
     implementation 'com.adcolony:sdk:4.6.2' // Use the latest version available
     implementation 'com.braze:braze-sdk-android:18.0.0' // Use the latest version
+    implementation 'com.braze:braze-android-sdk-ui:24.3.0' 
 
 }
